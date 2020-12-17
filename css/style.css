@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html, body {
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+
+.page-wrapper {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.page-wrapper p>a {
+    color: red;
+}
+
+h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-size: 5em;
+    letter-spacing: -0.04em;
+}
+
+p {
+    color: rgb(98, 0, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+    margin: 15px 0;
+}
+
+.divider {
+    color: white;
+}
+
+.icon {
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: rgb(22, 22, 22);
+}
+
+.content-wrapper a:visited {
+    color: red;
+}
+

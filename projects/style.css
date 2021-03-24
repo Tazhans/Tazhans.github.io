@@ -84,18 +84,36 @@ button {
     background-size: cover;
 }
 
-@media screen and (max-width:600px) {
+.project4 {
+    width: 300px;
+    height: 250px;
+    background: url("https://lh3.googleusercontent.com/yogBVwgiWZMT6BFWfrLs7qP8BwvSF-vaBUwfIqrvL6esEABQlg-UaIz12QYK70pRhG9rDDmN24a4_p86f3JqU9owxLpcAr-JoacoxsWh1k3EEYFyd0S4OxmFJP7_DPCtb1-q1Yho4kpZ49bV_woHm7Y0s1fvg062wr5pK348ZCQILYc6srHKd9QWCZVvA1m0eaXFLabSp9qu_UkUYQndiI0zO3hxLqKF55RBBCYnBOcjFRnFaIisTA4z2_zgnMXXbU3rJigex0DfzoCvSktC_6hclNTFLijGhL23DmB9h-qFfNuEbvjuxbNObO1h-aTrxlsKd0pz919oXV2dexpsVXYalooPfggpAJ9yj6TEpVwQgDMjYRpce5JBK-gOnEph2xXPd1i5JwcbwXqs1AR-J9gxEIxNcYMPqEWfJ3Y1sNUxTi3ULEoMXbP3Vf2ieVOj-jM2oKnxzo9R88H5x31TcqafcUCHIbUtuMdL37DHfk6oIT3L-HXFPwiWRfQX5ixsLZLo-N3pQuR7K6f6UVHXsYKigpi5PqkSlRo9iPTu9V05sm1Znnscj07MpBZwzEdbnM7r9M6QujJQUGTdB_noJIpGGDQazZx889derPcp12mf2DOV2j5r1My9rcEeC0xTTcJAO4zaYKeH7gTuIAdJgHHMRppiWLLxc1UG_0GUZJ-RxYiDeVGN3POBzLIftZ6QWawtctTsdCyC9BADixj14ZU=w1363-h695-no?authuser=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.project5 {
+    width: 300px;
+    height: 250px;
+    background: url("https://lh3.googleusercontent.com/XdwgsixzCM_SWU-GtOrmTXNOnWIFVZLrZ1Is99fRwxpeSabqC5SqK9Nw-w0Z7O-xh3wDbnm2FBfEvkoMsoTTR8EzDyj8Vd-mUW3obtfwP70c-ibhshSzx1mJD6QtHh6r4E9lt8-Iq_kuMYrxX9o8i4vu1WFEb0bXAEO8JHTNEK9qyBVInw3a5QaWCRTsuwgPElMclfaatU8nZNyyZcxEKFRSwBAanfKkOfPpS4QxVTZCQroGFh9DxKO2UIWliSwQChh3trei3SFWOQav-ArtUafimqOkAEcGzwOPIdK4brDcnh__I15eT5tgJy0asxkZXhQi0ZlFMrcEfTRHy-93Lk2o2C0sK3lC6TY-NGIZfGiXWSe1J1RbY-olPuQTZGDjGR9M9WH8lVGkgU7rgxvrLkzPYzohqimrvOhYd78ni2PFZcVjx3p0MKg6Vb3pI47Z4RIicWRBiTmh1oeAe0nT1WXFON1XZNcu49yYKgIGxzsfAnLAy4_Qw2V6kAS3kW4RLGTGivBUHcOqhM__Ed-gTebKoc4Ue4DygAc662XZhH2g7G5WvfG3iVbx-H73dsAY8GeKpcQeAPlGElbiknWVw2gmcdFovpGQJC2dOTJnb8cHzYxW4pNCgJg6CYSk7g0gEfxSBMkTb7Cs3rvG99rvtkfEeQ7Mmj-f-U8kMR3sUl0JRePUOY6vdk5F6Yn4YpIwfhc_915nzzPNwQPTMcAt230=w1360-h694-no?authuser=0");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+@media screen and (max-width:900px) {
     .container {
         display: flex;
         flex-wrap: wrap;
         margin: 50px auto;
     }
 
-    .project1 {
+    .project1, .project2, .project3, .project4 {
         margin-bottom: 30px;
     }
 
-    .project2 {
-        margin-bottom: 30px;
-    }
+    
 }

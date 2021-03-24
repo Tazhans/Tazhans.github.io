@@ -68,7 +68,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 5px;
 }
 
 .project2 {
@@ -78,7 +78,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 5px;
 }
 
 .project3 {
@@ -88,7 +88,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 5px;
 }
 
 .project4 {
@@ -98,7 +98,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 5px;
 }
 
 .project5 {
@@ -108,7 +108,7 @@ button {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 5px;
 }
 
 @media screen and (max-width:900px) {
